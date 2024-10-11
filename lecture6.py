@@ -107,17 +107,19 @@ print(alphabet)
  
 # print(func())
 
+originalList = [1, 5, 6, 5, 1, 2, 3]
+duplicatesList = []
+seen = []
+for element in originalList:
+    if element in seen:
+        duplicatesList.append(element)
+    else:
+        seen.append(element)
+
+print("Original List: ", originalList)
+print("Dulicate Elements", duplicatesList)
 
 
-
-def name():
-    len(name)
-    return()
- print(name)
-
-name("Hello World")
-    
-    
 
 
 

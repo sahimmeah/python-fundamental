@@ -2,4 +2,10 @@ $ git init
 
 Config done by one time
 $ git config --global user.name "Md.Sahim Meah Sikder"  
-$ 
+$ git config --global user.email "sahimsam545@gmail.com"
+$ git add *
+$ git status
+$ git commit -m "first commit"
+$ git branch -M main
+$ git remote add origin https://github.com/sahimmeah/python-fundamental.git
+$ git push -u origin main
